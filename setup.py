@@ -9,7 +9,8 @@ setup(
     author='ahmadachmed',
     author_email='ahmadilham000@gmail.com',
     description='Firebase app distribution integrated with Browserstack',
-    packages= find_packages(exclude=('test', 'test.*')),
+    # packages= find_packages(exclude=('test', 'test.*')),
+    packages=["firebase_browserstack"],
     install_requires=[
         'google-api-python-client'
     ]
