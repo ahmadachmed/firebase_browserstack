@@ -1,7 +1,7 @@
 import os
 import sys
 import requests
-from get_apk_url import get_firebase_apk_url
+from firebase_browserstack.get_apk_url import get_firebase_apk_url
 
 
 UPLOAD_URL = "https://api-cloud.browserstack.com/app-automate/upload"

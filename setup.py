@@ -1,12 +1,14 @@
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+from firebase_browserstack import __version__
+
+setup(
     name='firebase_browserstack',
-    version='0.0.1',
+    version=__version__,
     author='ahmadachmed',
     author_email='ahmadilham000@gmail.com',
     description='Firebase app distribution integrated with Browserstack',
-    packages= ['firebase_browserstack'],
+    packages= find_packages(),
     install_requires=[
         'google-api-python-client',
         'requests'
